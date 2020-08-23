@@ -2,13 +2,86 @@
 <html lang="en">
 
 <head>
-    <title>Template</title>
+    <title>Tour-Travel</title>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    Body here
+    <header class="header">
+        <div class="row header__row">
+            <div class="logo">
+                <img src="img/logo.svg" alt="Logo">
+            </div>
+            <div class="menu">
+                <ul class="menu__list">
+                    <a class="menu__link" href="#">
+                        <li class="menu__item menu__item_active">Home</li>
+                    </a>
+                    <a class="menu__link" href="#">
+                        <li class="menu__item">Destinations</li>
+                    </a>
+                    <a class="menu__link" href="#">
+                        <li class="menu__item">About</li>
+                    </a>
+                    <a class="menu__link" href="#">
+                        <li class="menu__item">Partner</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="row__buttons">
+                <a class="primary-btn" href="#">
+                    <div class="login-btn">Login</div>
+                </a>
+                <a class="secondary-btn" href="#">
+                    <div class="register-btn">Register</div>
+                </a>
+            </div>
+        </div>
+        <div class="header__inner">
+            <div class="inner__content">
+                <div class="inner__title">Explore and Travel</div>
+                <div class="inner__subtitle">Holiday finder</div>
+
+                <div class="inner__selectors">
+                    <select class="selection-input" tabindex="1" name="location">
+                        <option value="location1">Location1</option>
+                        <option value="location2">Location2</option>
+                        <option value="location3">Location3</option>
+                    </select>
+
+                    <select class="selection-input" tabindex="2" name="activity">
+                        <option value="activity1">Activity1</option>
+                        <option value="activity2">Activity2</option>
+                        <option value="activity3">Activity3</option>
+                    </select>
+
+                    <select class="selection-input" tabindex="3" name="grade">
+                        <option value="grade1">Grade1</option>
+                        <option value="grade2">Grade2</option>
+                        <option value="grade3">Grade3</option>
+                    </select>
+
+                    <select class="selection-input" tabindex="4" name="date">
+                        <option value="date1">Date1</option>
+                        <option value="date2">Date2</option>
+                        <option value="date3">Date3</option>
+                    </select>
+                </div>
+
+                <a class="secondary-btn" href="#">
+                    <div class="explore-btn">Explore</div>
+                </a>
+            </div>
+            <div class="inner__image">
+                <img src="img/header-bg.jpg" alt="">
+            </div>
+        </div>
+
+
+
+
+    </header>
 </body>
 
 </html>
