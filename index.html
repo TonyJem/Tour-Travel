@@ -8,80 +8,79 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="row header__row">
-            <div class="logo">
-                <img src="img/logo.svg" alt="Logo">
-            </div>
-            <div class="menu">
-                <ul class="menu__list">
-                    <a class="menu__link" href="#">
-                        <li class="menu__item menu__item_active">Home</li>
-                    </a>
-                    <a class="menu__link" href="#">
-                        <li class="menu__item">Destinations</li>
-                    </a>
-                    <a class="menu__link" href="#">
-                        <li class="menu__item">About</li>
-                    </a>
-                    <a class="menu__link" href="#">
-                        <li class="menu__item">Partner</li>
-                    </a>
-                </ul>
-            </div>
-            <div class="row__buttons">
-                <a class="primary-btn" href="#">
-                    <div class="login-btn">Login</div>
+
+    <header class="header container_wide">
+        <div class="header__row row flex-container">
+            <div class="row__left">
+                <a class="logo__link" href="#Logo">
+                    <img class="logo__img" src="img/logo.svg" alt="Logo">
                 </a>
-                <a class="secondary-btn" href="#">
-                    <div class="register-btn">Register</div>
-                </a>
+            </div>
+            <div class="row__right flex-container">
+                <div class="menu">
+                    <ul class="menu__list flex-container">
+                        <a class="menu__link" href="#Home">
+                            <li class="menu__item menu__item_active">Home</li>
+                        </a>
+                        <a class="menu__link" href="#Destinations">
+                            <li class="menu__item">Destinations</li>
+                        </a>
+                        <a class="menu__link" href="#About">
+                            <li class="menu__item">About</li>
+                        </a>
+                        <a class="menu__link" href="#Partner">
+                            <li class="menu__item">Partner</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="row__buttons flex-container">
+                    <a class="btn_primary btn-small buttons" href="#Login">Login</a>
+                    <a class="btn_secondary btn-small row__buttons buttons" href="#Register">Register</a>
+                </div>
             </div>
         </div>
-
-        <div class="header__inner">
+        <div class="header__inner flex-container">
             <div class="inner__content">
-                <div class="inner__title">Explore and Travel</div>
-                <div class="inner__subtitle">Holiday finder</div>
-
-                <div class="inner__selectors">
-                    <select class="selection-input" tabindex="1" name="location">
-                        <option value="location1">Location</option>
-                        <option value="location2">Location2</option>
-                        <option value="location3">Location3</option>
-                    </select>
-
-                    <select class="selection-input" tabindex="2" name="activity">
-                        <option value="activity1">Activity</option>
-                        <option value="activity2">Activity2</option>
-                        <option value="activity3">Activity3</option>
-                    </select>
-
-                    <select class="selection-input" tabindex="3" name="grade">
-                        <option value="grade1">Grade</option>
-                        <option value="grade2">Grade2</option>
-                        <option value="grade3">Grade3</option>
-                    </select>
-
-                    <select class="selection-input" tabindex="4" name="date">
-                        <option value="date1">Date</option>
-                        <option value="date2">Date2</option>
-                        <option value="date3">Date3</option>
-                    </select>
-
-                    <!-- <input class="selection-input" type="date" tabindex="4" name="date"> -->
+                <h1 class="inner__title">Explore and Travel</h1>
+                <p class="inner__subtitle">Holiday finder</p>
+                <div class="inner__selectors flex-container">
+                    <div class="selection-box">
+                        <select class="selection-input" name="locations">
+                            <option value="location1">Location</option>
+                            <option value="location2">Location2</option>
+                            <option value="location3">Location3</option>
+                        </select>
+                    </div>
+                    <div class="selection-box">
+                        <select class="selection-input" name="activities">
+                            <option value="activity1">Activity</option>
+                            <option value="activity2">Activity2</option>
+                            <option value="activity3">Activity3</option>
+                        </select>
+                    </div>
+                    <div class="selection-box">
+                        <select class="selection-input" name="grades">
+                            <option value="grade1">Grade</option>
+                            <option value="grade2">Grade2</option>
+                            <option value="grade3">Grade3</option>
+                        </select>
+                    </div>
+                    <div class="selection-box">
+                        <select class="selection-input" name="dates">
+                            <option value="date1">Date</option>
+                            <option value="date2">Date2</option>
+                            <option value="date3">Date3</option>
+                        </select>
+                    </div>
                 </div>
-
-                <a class="secondary-btn" href="#">
-                    <div class="explore-btn">Explore</div>
-                </a>
+                <a class="btn_secondary btn-big buttons" href="#Explore">Explore</a>
             </div>
             <div class="inner__image">
                 <img src="img/header-bg.jpg" alt="">
             </div>
         </div>
-
     </header>
+
 </body>
 
 </html>
