@@ -131,6 +131,11 @@ body{
     font-family: 'muli';
     font-weight: 700;
 }
+.link-style{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #FB8F1D;
+}
 .section-top_with-link{
     justify-content: space-between;
 }
@@ -139,10 +144,7 @@ body{
 }
 .section-top_link{
     display: block;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
     font-size: 17px;
-    color: #FB8F1D;
 }
 
 .header__row{
@@ -236,8 +238,8 @@ body{
 .learn-more,
 .download,
 .gallery,
-.testimonials
-{
+.testimonials,
+.stories{
     margin-bottom: 200px;
 }
 .content__image_right{
@@ -368,5 +370,43 @@ body{
 }
 .slider__btn-prev{
     right: 62px;
+}
+
+.stories__items{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.story-item{
+    max-width: 261px;
+}
+.story-item__image{
+    width: 100%;
+    height: 230px;
+    border-radius: 8px 8px 0px 0px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.story-item__content{
+    width: 95%;
+}
+.story-item__title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.story-item__text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #7D7987;
+    margin-bottom: 25px;
+}
+.story-item__link{
+    font-size: 15px;
+    line-height: 28px;
 }
 
