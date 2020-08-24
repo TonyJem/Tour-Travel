@@ -60,6 +60,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight: 400;}
 	font-weight: normal;
 	font-style: normal;
 }
+
+body{
+    font-family: 'muli';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+}
 .flex-container{
     display: flex;
 }
@@ -67,6 +75,19 @@ h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight: 400;}
     max-width: 1250px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.container_narrow{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* background-color: rgb(163,163,163); */
+}
+.title{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
 }
 .buttons{
     display: block;
@@ -96,7 +117,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight: 400;}
 }
 .btn-medium{
     width: 164px;
-    height: 48px;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 16px 0;
+    font-family: 'muli';
+    font-weight: 600;
 }
 .btn-big{
     width: 180px;
@@ -193,3 +218,92 @@ h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight: 400;}
 .inner__image{
     margin-right: -90px;
 }
+
+.learn-more,
+.download,
+.gallery
+{
+    margin-top: 200px;
+}
+.content__image_right{
+    margin-left: -100px;
+}
+.content__image_left{
+    margin-right: 0px;
+}
+.content-inner{
+    justify-content: space-between;
+}
+.content__collumn{
+    max-width: 460px;
+    margin: auto 0;
+}
+.content__title{
+    padding-bottom: 20px;
+}
+.content__text{
+    padding-bottom: 33px;
+}
+.content__text>p{
+    margin-bottom: 10px;
+}
+
+.gallery__top{
+    justify-content: space-between;
+}
+.gallery__title{
+    margin-bottom: 50px;
+}
+.view-all{
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #FB8F1D;
+}
+.gallery__bottom{
+    justify-content: space-between;
+}
+.gallery-item{
+    width: 261px;
+    height: 332px;
+    border-radius: 8px 8px 8px 0px;
+    overflow: hidden;
+    position: relative;
+}
+.gallery-item__label{
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+    width: 120px;
+    height: 56px;
+    background-color: #FFF;
+    border-radius: 0px 6px 0px 0px;
+    border-color: transparent;
+    overflow: hidden;
+}
+.gallery-item__inner{
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.gallery-item__title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 17px;
+    color: #042521;
+    margin-bottom: 8px;
+}
+.gallery-item__text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    color: #80918E;
+}
+
+
+
+
