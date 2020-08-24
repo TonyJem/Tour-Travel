@@ -146,6 +146,16 @@ body{
     display: block;
     font-size: 17px;
 }
+.section-top_link::after{
+    content: "";
+    width: 7px;
+    height: 11px;
+    background-image: url("../img/arrow-right.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-left: 6px;
+    border-bottom: 2px solid transparent;
+}
 
 .header__row{
     padding-top: 45px;
