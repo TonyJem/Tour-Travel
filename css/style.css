@@ -288,6 +288,19 @@ body{
     overflow: hidden;
     position: relative;
 }
+.gallery-item__cover{
+    position: absolute;
+    z-index: 7;
+    bottom: 0;
+    left: 0;
+    width: 261px;
+    height: 332px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.gallery-item__cover:hover{
+    background: none;
+    cursor: pointer;
+}
 .gallery-item__label{
     position: absolute;
     z-index: 5;
