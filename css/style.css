@@ -450,7 +450,6 @@ body{
 .footer{
     background-color: #F9F9FB;
     padding-top: 80px;
-    padding-bottom: 25px;
 }
 .footer__content{
     justify-content: space-between;
@@ -501,8 +500,36 @@ body{
 }
 .footer__social{
     padding-top: 30px;
+    padding-bottom: 32px;
     justify-content: center;
+    align-items: flex-end;
 }
 .social__link{
-    padding: 0 17.5px;
+    background-repeat: no-repeat;
+    margin: 0 17.5px;
+}
+.social__twitter{
+    background-image: url('../img/icons/01icon-twitter.svg');
+    width: 25px;
+    height: 20px;
+}
+.social__facebook{
+    background-image: url('../img/icons/02icon-facebook.svg');
+    width: 10px;
+    height: 22px;
+}
+.social__instagram{
+    background-image: url('../img/icons/03icon-instagram.svg');
+    width: 22px;
+    height: 22px;
+}
+.social__linkedin{
+    background-image: url('../img/icons/04icon-linkedin.svg');
+    width: 23px;
+    height: 22px;
+}
+.social__youtube{
+    background-image: url('../img/icons/05icon-youtube.svg');
+    width: 28px;
+    height: 20px;
 }
