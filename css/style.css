@@ -131,6 +131,19 @@ body{
     font-family: 'muli';
     font-weight: 700;
 }
+.section-top_with-link{
+    justify-content: space-between;
+}
+.section-top__title{
+    margin-bottom: 50px;
+}
+.section-top_link{
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #FB8F1D;
+}
 
 .header__row{
     padding-top: 45px;
@@ -219,17 +232,22 @@ body{
     margin-right: -90px;
 }
 
+.header,
 .learn-more,
 .download,
-.gallery
+.gallery,
+.testimonials
 {
-    margin-top: 200px;
+    margin-bottom: 200px;
 }
 .content__image_right{
     margin-left: -100px;
 }
 .content__image_left{
     margin-right: 0px;
+}
+.content__image_center{
+    margin: 0 auto;
 }
 .content-inner{
     justify-content: space-between;
@@ -248,21 +266,10 @@ body{
     margin-bottom: 10px;
 }
 
-.gallery__top{
-    justify-content: space-between;
-}
-.gallery__title{
-    margin-bottom: 50px;
-}
-.view-all{
-    display: block;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 17px;
-    color: #FB8F1D;
-}
+
 .gallery__bottom{
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .gallery-item{
     width: 261px;
@@ -280,7 +287,6 @@ body{
     height: 56px;
     background-color: #FFF;
     border-radius: 0px 6px 0px 0px;
-    border-color: transparent;
     overflow: hidden;
 }
 .gallery-item__inner{
@@ -303,7 +309,64 @@ body{
     line-height: 15px;
     color: #80918E;
 }
-
-
-
+.star-img{
+    margin-right: 16px;
+}
+.content__stars{
+    margin-bottom: 30px;
+}
+.content__quote{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.content__user-name{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.content__user-position{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.85);
+}
+.slider{
+    width: 384px;
+    height: 491px;
+    border-radius: 14px 14px 0px 14px;
+    overflow: hidden;
+    position: relative;
+}
+.slider__label{
+    position: absolute;
+    width: 132px;
+    height: 60px;
+    z-index: 5;
+    bottom: 0;
+    right: 0;
+    background-color: #FFF;
+    border-radius: 16px 0px 0px 0px;
+    overflow: hidden;
+}
+.slider__btn_next,
+.slider__btn-prev{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    bottom: 0;
+}
+.slider__btn_next{
+    right: 0;
+}
+.slider__btn-prev{
+    right: 62px;
+}
 
