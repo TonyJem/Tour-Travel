@@ -6,4 +6,4 @@
 
 
 
-Source design figma file downloaded from: https://www.uistore.design/items/tour-and-travel-website-for-figma/
+Source design Figma file downloaded from: https://www.uistore.design/items/tour-and-travel-website-for-figma/
