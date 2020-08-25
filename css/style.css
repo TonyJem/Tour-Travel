@@ -512,23 +512,38 @@ body{
     width: 25px;
     height: 20px;
 }
+.social__twitter:hover{
+    background-image: url('../img/icons/01icon-twitter_hover.svg');
+}
 .social__facebook{
     background-image: url('../img/icons/02icon-facebook.svg');
     width: 10px;
     height: 22px;
+}
+.social__facebook:hover{
+    background-image: url('../img/icons/02icon-facebook_hover.svg');
 }
 .social__instagram{
     background-image: url('../img/icons/03icon-instagram.svg');
     width: 22px;
     height: 22px;
 }
+.social__instagram:hover{
+    background-image: url('../img/icons/03icon-instagram_hover.svg');
+}
 .social__linkedin{
     background-image: url('../img/icons/04icon-linkedin.svg');
     width: 23px;
     height: 22px;
 }
+.social__linkedin:hover{
+    background-image: url('../img/icons/04icon-linkedin_hover.svg');
+}
 .social__youtube{
     background-image: url('../img/icons/05icon-youtube.svg');
     width: 28px;
     height: 20px;
+}
+.social__youtube:hover{
+    background-image: url('../img/icons/05icon-youtube_hover.svg');
 }
