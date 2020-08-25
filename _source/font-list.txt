@@ -1,0 +1,55 @@
+------------ Inter
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+
+
+
+------------ Playfair Display
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+
+
+
+
+------------ Muli
+font-family: Muli;
+font-style: normal;
+font-weight: 300;
+
+font-family: Muli;
+font-style: normal;
+font-weight: normal;
+
+font-family: Muli;
+font-style: normal;
+font-weight: bold;
+
+
+
+100-thin
+300-lite
+400-normal
+500-medium
+600-semibold
+700-bold
+900-black
+
+
+
+
+
+
